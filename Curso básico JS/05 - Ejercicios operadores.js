@@ -44,8 +44,24 @@ console.log(5 < 1 || 7 > 6);
 
 // 7. Combina ambos operadores lógicos
 
+console.log(5 < 10 && 7 > 3 || 4 < 5 && 3 > 1);
+
 // 8. Añade alguna negación
+
+console.log(!(5 == 5 && 4 < 5));
 
 // 9. Utiliza el operador ternario
 
+let moverCarro = true; 
+
+moverCarro ? console.log("Se moverá el carro hacia la izquierda") : console.log("Se moverá el carro hacia la derecha");
+
 // 10. Combina operadores aritméticos, de comparáción y lógicas
+
+let valorUno = 5 + 5;
+console.log(valorUno);
+
+valorUno ++;
+console.log(valorUno);
+
+console.log( valorUno <= 11 && valorUno == valorUno++);
