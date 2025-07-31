@@ -24,7 +24,7 @@ console.log(message)
 
 // SWITCH | alternativa para anidar if else cuando son muchas condicionales
 
-let day = 0
+let day = 1
 let dayName 
 
 if (day == 0) {
@@ -46,18 +46,27 @@ switch (day) {
     
     case 0:
         dayName = "Lunes"
+        break
     case 1:
         dayName = "Martes"
+        break
     case 2:
         dayName = "Miércoles"
+        break
     case 3:
         dayName = "Jueves"
+        break
     case 4:
         dayName = "Viernes"
+        break
     case 5:
         dayName = "Sábado"
+        break
     case 6:
-        dayName = "Domingo"    
+        dayName = "Domingo"
+        break
+    default:
+        dayName = "Número de día incorrecto"    
 }
 
 console.log(dayName)
